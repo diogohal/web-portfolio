@@ -1,0 +1,11 @@
+{
+    "experiences": [
+        {
+            "start": 2022,
+            "end": "agora",
+            "job": "Estágio no Centro de Computação Científica e Software Livre - C3SL - UFPR",
+            "description": "Trabalhei como modelador de banco de dados  no projeto Ensalamento UFPR, sistema que ensala automaticamente as turmas da universidade em salas do campus.",
+            "tools": ["PostgreSQL"]
+        }
+    ]
+}
