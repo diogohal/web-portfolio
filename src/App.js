@@ -6,9 +6,13 @@ import Experience from './Components/Experience'
 export default function App() {
     return (
         <div>
-            <Nav />
-            <About />
-            <Experience />
+            <section>
+                <Nav />
+                <About />
+            </section>
+            <section>
+                <Experience />
+            </section>
         </div>
     )
 }

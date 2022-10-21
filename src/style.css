@@ -9,10 +9,19 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 20px 100px;
     background-color: #000;
 }
+
+section {
+    min-height: 100vh;
+}
+
 
 /* ========= Nav ========= */
 .nav{
@@ -49,9 +58,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 110px;
     color: white;
-    margin: 110px 0px;
     font-family: broken-console;
+    padding-bottom: 100px;
 }
 
 .about--text--name {
@@ -82,7 +92,6 @@ body {
 /* ========= Experiences ========= */
 .experience {
     color: white;
-    margin-top: 70px;
 }
 
 .experience--title{
