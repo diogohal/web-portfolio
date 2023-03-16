@@ -8,7 +8,7 @@
         },
         {
             "title": "Mapa de intensidade com conta-gotas",
-            "description": "Essa aplicação gera um mapa de intensidade com base nas distâncias Euclidiana e Mahalanobis em relação ao data frame obtido pelo conta-gotas usado na mesma imagem.",
+            "description": "Aplicação que gera um mapa de intensidade com base nas distâncias Euclidiana e Mahalanobis em relação ao data frame obtido pelo conta-gotas usado na mesma imagem.",
             "tools": ["Python", "OpenCV", "Numpy", "Matplotlib", "Processamento de Imagens"],
             "github_link": "https://github.com/diogohal/intensity-map-similarity-measures"
         }
