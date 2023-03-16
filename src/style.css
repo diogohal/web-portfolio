@@ -20,7 +20,7 @@ body {
 }
 
 section {
-    margin: 0px 15%;
+    margin: 0px 12%;
 }    
 
 
@@ -247,7 +247,7 @@ section {
         font-size: 33px;
     }
     .description {
-        font-size: 40px;
+        font-size: 30px;
     }
     .tools {
         flex-wrap: wrap;
