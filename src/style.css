@@ -259,19 +259,22 @@ section {
 
 @media only screen and (max-width: 1000px) {
     .about {
-        margin-top: 20%;
+        margin-top: 15;
         flex-wrap: wrap-reverse;
+    }
+    .about--text--name{
+        font-size: 50px;
     }
     .about--text--name{
         text-align: center;
     }
     .about--text--description {
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
     }
-}
-
-@media only screen and (max-width: 800px) {
+    .about--img {
+        width: 400px;
+    }
     .experience--details {
         flex-wrap: wrap;
     }
