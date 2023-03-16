@@ -3,8 +3,8 @@ import Experiences from '../Data/Experiences.json'
 
 export default function Experience() {
     return (
-        <div className='experience'>
-            <h1 className='experience--title'>EXPERIÊNCIA PROFISSIONAL</h1>
+        <div className='experience' id='experience'>
+            <h1 className='experience--title'>EXPERIÊNCIA</h1>
             {Experiences.experiences.map(exp => (
                 <div className='experience--details'>
                     <div className='experience--details--date'>

@@ -4,8 +4,8 @@
             "start": 2022,
             "end": "agora",
             "job": "Estágio no Centro de Computação Científica e Software Livre - C3SL - UFPR",
-            "description": "Trabalhei como modelador de banco de dados  no projeto Ensalamento UFPR, sistema que ensala automaticamente as turmas da universidade em salas do campus.",
-            "tools": ["PostgreSQL"]
+            "description": "Trabalhei como modelador de banco de dados no projeto Ensalamento UFPR, sistema que distribui salas automaticamente para as disciplinas dos campus Politécnico e Botânico da UFPR. Atualmente trabalho na manutenção do banco de dados do Simcaq (Simulador Custo-Aluno Qualidade), projeto que visa precificar uma educação de qualidade para escolas dos ensinos fundamental e médio.",
+            "tools": ["PostgreSQL", "MonetDB", "Python"]
         }
     ]
 }

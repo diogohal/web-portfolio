@@ -14,12 +14,13 @@ html {
 }
 
 body {
-    margin: 20px 100px;
-    background-color: #000;
+    margin-top: 20px;
+    background-color: rgb(10, 10, 10);
 }
 
 section {
     min-height: 100vh;
+    margin: 0px 100px;
 }
 
 
@@ -44,12 +45,13 @@ section {
     letter-spacing: 0.5px;
 }
 
-.nav--text > p {
+.nav--items {
     padding: 20px;
 }
 
-.nav--text > p:hover {
+.nav--items:hover {
     color: #e45758;
+    cursor: pointer;
 }
 
 
@@ -89,6 +91,7 @@ section {
     margin-left: 40px;
 }
 
+
 /* ========= Experiences ========= */
 .experience {
     color: white;
@@ -96,6 +99,7 @@ section {
 
 .experience--title{
     font-family: broken-console;
+    color: #e45758;
     font-size: 30px;
 }
 
@@ -124,9 +128,121 @@ section {
     font-size: 20px;
     color: rgb(223, 223, 223);
 }
-
+    
 .experience--details--tools {
+    display: flex;
+    flex-direction: row;
     margin-top: 10px;
     font-size: 18px;
     color: rgb(156, 156, 156);
+}
+.experience--details--tools > p {
+    margin-right: 10px;
+}
+
+
+/* ========= Projects ========= */
+.project {
+    color:white;
+    margin-top: 110px;
+}
+
+.project--title {
+    font-family: broken-console;
+    color: #e45758;
+    font-size: 30px;
+}
+
+.project--details {
+    font-family: Poppins;
+    margin-top: 50px;
+}
+
+.project--details--title {
+    font-size: 25px;
+}
+
+.project--details--description {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+}
+
+.project--details--tools {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(156, 156, 156);
+}
+.project--details--tools > p {
+    margin-right: 10px;
+}
+
+.project--details--repository {
+    display: flex;
+    flex-direction: row;
+    color: rgb(156, 156, 156);
+    margin-top: 5px;
+}
+
+.project--details--repository > p > a {
+    all: unset;
+    color: #e76a6a;
+    padding: 3px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.project--details--repository > p > a:hover {
+    cursor: pointer;
+}
+
+
+/* ========= Contact ========= */
+.contact {
+    color: rgb(238, 238, 238);;
+    margin-top: 110px;
+}
+
+.contact--title {
+    font-family: broken-console;
+    color: #e45758;
+    font-size: 30px;
+}
+
+.contact--text {
+    font-family: Poppins;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact--text--item {
+    all: unset;
+    color: #e76a6a;
+}
+
+.contact--text--item:hover {
+    cursor: pointer;
+}
+
+
+/* ========= Footer ========= */
+.footer {
+    color: white;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.footer > a > img {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
 }
