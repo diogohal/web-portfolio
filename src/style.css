@@ -101,15 +101,35 @@ section {
 }
 
 
-/* ========= Experiences ========= */
-.experience {
-    color: white;
-}
-
-.experience--title{
+/* ========= FONT SIZE AND FAMILY ========= */
+.topic {
     font-family: broken-console;
     color: #e45758;
     font-size: 30px;
+}
+
+.subtopic {
+    font-size: 25px;
+}
+
+.description {
+    font-family: Poppins;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    margin-top: 10px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(156, 156, 156);
+}
+
+/* ========= Experiences ========= */
+.experience {
+    color: white;
 }
 
 .experience--details {
@@ -127,24 +147,7 @@ section {
 .experience--details--date > p{
     margin-right: 10px;
 }
-
-.experience--details--job {
-    font-size: 25px;
-}
-
-.experience--details--description {
-    margin-top: 10px;
-    font-size: 20px;
-    color: rgb(223, 223, 223);
-}
     
-.experience--details--tools {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    font-size: 18px;
-    color: rgb(156, 156, 156);
-}
 .experience--details--tools > p {
     margin-right: 10px;
 }
@@ -156,35 +159,11 @@ section {
     margin-top: 110px;
 }
 
-.project--title {
-    font-family: broken-console;
-    color: #e45758;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
 .project--details {
     font-family: Poppins;
     margin-bottom: 50px;
 }
 
-.project--details--title {
-    font-size: 25px;
-}
-
-.project--details--description {
-    margin-top: 10px;
-    font-size: 20px;
-    color: rgb(223, 223, 223);
-}
-
-.project--details--tools {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    font-size: 18px;
-    color: rgb(156, 156, 156);
-}
 .project--details--tools > p {
     margin-right: 10px;
 }
@@ -213,18 +192,6 @@ section {
 .contact {
     color: rgb(238, 238, 238);;
     margin-top: 110px;
-}
-
-.contact--title {
-    font-family: broken-console;
-    color: #e45758;
-    font-size: 30px;
-}
-
-.contact--text {
-    font-family: Poppins;
-    margin-top: 20px;
-    font-size: 20px;
 }
 
 .contact--text--item {
@@ -257,19 +224,24 @@ section {
     background-color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
+    .nav--text {
+        font-size: 25px;
+    }
+    .nav--items {
+        padding: 12px;
+    }
     .about {
-        margin-top: 15;
+        margin-top: 20%;
         flex-wrap: wrap-reverse;
     }
     .about--text--name{
-        font-size: 50px;
-    }
-    .about--text--name{
+        font-size: 80px;
         text-align: center;
+        margin-top: 20px;
     }
     .about--text--description {
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
     }
     .about--img {
@@ -277,5 +249,27 @@ section {
     }
     .experience--details {
         flex-wrap: wrap;
+    }
+    .topic {
+        font-size: 60px;
+    }
+    .subtopic {
+        font-size: 33px;
+    }
+    .description {
+        font-size: 40px;
+    }
+    .tools {
+        flex-wrap: wrap;
+        font-size: 25px;
+    }
+    .experience--details--date {
+        font-size: 30px;
+    }
+    .project--details--repository {
+        font-size: 25px;
+    }
+    .footer > a > img {
+        width: 66px;
     }
 }
