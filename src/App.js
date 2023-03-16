@@ -11,7 +11,7 @@ import './style.css'
 export default function App() {
     return (
         <div>
-            <section>
+            <section className='home'>
                 <Nav />
                 <About />
             </section>
