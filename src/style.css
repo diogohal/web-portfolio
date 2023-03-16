@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    font-family: Poppins;
     margin-top: 20px;
     background-color: rgb(10, 10, 10);
 }
@@ -25,7 +26,7 @@ section {
 
 /* ========= Nav + About ========= */
 .home {
-    min-height: 100vh;
+    height: 90vh;
 }
 
 
@@ -106,14 +107,16 @@ section {
     font-family: broken-console;
     color: #e45758;
     font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 110px;
 }
 
 .subtopic {
     font-size: 25px;
+    color: white;
 }
 
 .description {
-    font-family: Poppins;
     font-size: 20px;
     color: rgb(223, 223, 223);
     margin-top: 10px;
@@ -128,13 +131,8 @@ section {
 }
 
 /* ========= Experiences ========= */
-.experience {
-    color: white;
-}
-
 .experience--details {
     display: flex;
-    font-family: Poppins;
     margin-top: 20px;
 }
 
@@ -154,13 +152,7 @@ section {
 
 
 /* ========= Projects ========= */
-.project {
-    color:white;
-    margin-top: 110px;
-}
-
 .project--details {
-    font-family: Poppins;
     margin-bottom: 50px;
 }
 
@@ -179,8 +171,6 @@ section {
     all: unset;
     color: #e76a6a;
     padding: 3px;
-    border-radius: 8px;
-    border-width: 0px;
 }
 
 .project--details--repository > p > a:hover {
@@ -224,7 +214,7 @@ section {
     background-color: white;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1200px) {
     .nav--text {
         font-size: 25px;
     }
@@ -261,13 +251,13 @@ section {
     }
     .tools {
         flex-wrap: wrap;
-        font-size: 25px;
+        font-size: 35px;
     }
     .experience--details--date {
         font-size: 30px;
     }
     .project--details--repository {
-        font-size: 25px;
+        font-size: 30px;
     }
     .footer > a > img {
         width: 66px;
