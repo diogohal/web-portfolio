@@ -236,9 +236,10 @@ section {
     }
     .about--img {
         width: 400px;
+        margin-bottom: 20px;
     }
     .experience--details {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .topic {
         font-size: 60px;
@@ -247,7 +248,7 @@ section {
         font-size: 33px;
     }
     .description {
-        font-size: 35px;
+        font-size: 40px;
     }
     .tools {
         flex-wrap: wrap;
